@@ -4,35 +4,31 @@
   </a>
 </p>
 <h1 align="center">
-  @lekoarts/gatsby-theme-minimal-blog
+  @devpanther/gatsby-theme-minimal-blog
 </h1>
 
 <p align="center">
   <a href="https://github.com/LekoArts/gatsby-themes/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@lekoarts/gatsby-theme-minimal-blog is released under the MIT license." />
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="@devpanther/gatsby-theme-minimal-blog is released under the MIT license." />
   </a>
-  <a href="https://www.npmjs.org/package/@lekoarts/gatsby-theme-minimal-blog">
-    <img src="https://img.shields.io/npm/v/@lekoarts/gatsby-theme-minimal-blog.svg" alt="Current npm package version." />
+  <a href="https://www.npmjs.org/package/@devpanther/gatsby-theme-minimal-blog">
+    <img src="https://img.shields.io/npm/v/@devpanther/gatsby-theme-minimal-blog.svg" alt="Current npm package version." />
   </a>
-  <a href="https://npmcharts.com/compare/@lekoarts/gatsby-theme-minimal-blog?minimal=true">
-    <img src="https://img.shields.io/npm/dm/@lekoarts/gatsby-theme-minimal-blog.svg" alt="Downloads per month on npm." />
+  <a href="https://npmcharts.com/compare/@devpanther/gatsby-theme-minimal-blog?minimal=true">
+    <img src="https://img.shields.io/npm/dm/@devpanther/gatsby-theme-minimal-blog.svg" alt="Downloads per month on npm." />
   </a>
-  <a href="https://npmcharts.com/compare/@lekoarts/gatsby-theme-minimal-blog?minimal=true">
-    <img src="https://img.shields.io/npm/dt/@lekoarts/gatsby-theme-minimal-blog.svg" alt="Total downloads on npm." />
+  <a href="https://npmcharts.com/compare/@devpanther/gatsby-theme-minimal-blog?minimal=true">
+    <img src="https://img.shields.io/npm/dt/@devpanther/gatsby-theme-minimal-blog.svg" alt="Total downloads on npm." />
   </a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
-  <a href="https://twitter.com/intent/follow?screen_name=lekoarts_de">
-      <img src="https://img.shields.io/twitter/follow/lekoarts_de.svg?label=Follow%20@lekoarts_de" alt="Follow @lekoarts_de" />
-    </a>
 </p>
 
 Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.
 
 [![Live Preview](https://img.lekoarts.de/gatsby/preview.svg)](https://minimal-blog.lekoarts.de) [![View Design on Figma](https://img.lekoarts.de/gatsby/view_design.svg)](https://www.figma.com/file/sq2VwMy8579ioDTXjUdlYr/gatsby-theme-minimal-blog?node-id=0%3A1)
 
-Read the [Source Code](https://github.com/LekoArts/gatsby-starter-minimal-blog).
+Read the [Source Code](https://github.com/devpanther/gatsby-starter-minimal-blog).
 
-Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes.lekoarts.de)
 
 ## Features
 
@@ -47,7 +43,7 @@ Also be sure to checkout other [Free & Open Source Gatsby Themes](https://themes
 ## Installation
 
 ```sh
-npm install @lekoarts/gatsby-theme-minimal-blog
+npm install @devpanther/gatsby-theme-minimal-blog
 ```
 
 ### Install as a starter
@@ -58,7 +54,7 @@ This will generate a new site that pre-configures use of the theme.
 gatsby new minimal-blog LekoArts/gatsby-starter-minimal-blog
 ```
 
-[**View the starter's code**](https://github.com/LekoArts/gatsby-starter-minimal-blog)
+[**View the starter's code**](https://github.com/devpanther/gatsby-starter-minimal-blog)
 
 ## Usage
 
@@ -128,9 +124,9 @@ module.exports = {
     // Used for the title template on pages other than the index site
     siteTitle: `Lupin`,
     // Default title of the page
-    siteTitleAlt: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+    siteTitleAlt: `Minimal Blog - @devpanther/gatsby-theme-minimal-blog`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+    siteHeadline: `Minimal Blog - Gatsby Theme from @devpanther`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://minimal-blog.lekoarts.de`,
     // Used for SEO
@@ -149,7 +145,7 @@ If you want to add additional items to the navigation or external links (left an
 
 ### Code Highlighting
 
-Since this theme ships with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) certain additional features were added to code blocks. You can find an overview / usage example in the [example repository](https://github.com/LekoArts/gatsby-themes/tree/master/examples/minimal-blog/content/posts/fantastic-beasts-and-where-to-find-them/index.mdx)! If you want to change certain code styles or add additional language tabs, you need to shadow the file `src/@lekoarts/gatsby-theme-minimal-blog/styles/code.js`.
+Since this theme ships with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) certain additional features were added to code blocks. You can find an overview / usage example in the [example repository](https://github.com/LekoArts/gatsby-themes/tree/master/examples/minimal-blog/content/posts/fantastic-beasts-and-where-to-find-them/index.mdx)! If you want to change certain code styles or add additional language tabs, you need to shadow the file `src/@devpanther/gatsby-theme-minimal-blog/styles/code.js`.
 
 **Language tabs:**
 
@@ -218,7 +214,7 @@ render(<button onClick={onClick}>Alohomora!</button>);
 
 ### Shadowing
 
-Please read the guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.org/docs/themes/shadowing/) to understand how to customize the this theme! Generally speaking you will want to place your files into `src/@lekoarts/gatsby-theme-minimal-blog/` to shadow/override files.
+Please read the guide [Shadowing in Gatsby Themes](https://www.gatsbyjs.org/docs/themes/shadowing/) to understand how to customize the this theme! Generally speaking you will want to place your files into `src/@devpanther/gatsby-theme-minimal-blog/` to shadow/override files.
 
 ### Adding content
 
@@ -272,14 +268,14 @@ slug: "/about"
 
 #### Changing the "Hero" text
 
-To edit the hero text ("Hi, I'm Lupin...), create a file at `src/@lekoarts/gatsby-theme-minimal-blog/texts/hero.mdx` to edit the text.
+To edit the hero text ("Hi, I'm Lupin...), create a file at `src/@devpanther/gatsby-theme-minimal-blog/texts/hero.mdx` to edit the text.
 
 #### Changing the "Projects" part
 
-To edit the projects part below "Latest posts", create a file at `src/@lekoarts/gatsby-theme-minimal-blog/texts/bottom.mdx` to edit the contents.
+To edit the projects part below "Latest posts", create a file at `src/@devpanther/gatsby-theme-minimal-blog/texts/bottom.mdx` to edit the contents.
 
 ## 🌟 Supporting me
 
 Thanks for using this project! I'm always interested in seeing what people do with my projects, so don't hesitate to tag me on [Twitter](https://twitter.com/lekoarts_de) and share the project with me.
 
-Please star this project, share it on Social Media or consider supporting me on [Patreon](https://www.patreon.com/lekoarts) or [GitHub Sponsor](https://github.com/sponsors/LekoArts)!
+Please star this project, share it on Social Media or consider supporting me on [Patreon](https://www.patreon.com/devpanther) or [GitHub Sponsor](https://github.com/sponsors/devpanther)!
