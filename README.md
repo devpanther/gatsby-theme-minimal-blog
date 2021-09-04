@@ -75,7 +75,7 @@ gatsby new minimal-blog LekoArts/gatsby-starter-minimal-blog
 | `navigation`      | `[]`                                                 | Add links to your internal sites to the left part of the header                                            |
 | `externalLinks`   | `[]`                                                 | Add links to your external sites to the right part of the header                                           |
 | `feed`            | `true`                                               | Configure `gatsby-plugin-feed` (if your website already is using the plugin pass `false` to turn this off) |
-| `feedTitle`       | `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog` | Pass a string to the `title` option of `gatsby-plugin-feed`                                                |
+| `feedTitle`       | `Minimal Blog - @devpanther/gatsby-theme-minimal-blog` | Pass a string to the `title` option of `gatsby-plugin-feed`                                                |
 
 #### Example usage
 
@@ -84,7 +84,7 @@ gatsby new minimal-blog LekoArts/gatsby-starter-minimal-blog
 module.exports = {
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+      resolve: `@devpanther/gatsby-theme-minimal-blog`,
       options: {
         showLineNumbers: false,
         navigation: [
