@@ -1,10 +1,14 @@
 {
   "author": {
-    "name": "jordanclive",
-    "email": "hello@jordanclive.com"
+    "name": "DevPanther"
   },
   "bugs": {
     "url": "https://github.com/LekoArts/gatsby-themes/issues"
+  },
+  "homepage": "https://github.com/DevPanther/gatsby-theme-minimal-blog",
+  "repository": {
+    "url": "git@github.com:DevPanther/gatsby-theme-minimal-blog.git",
+    "type": "git"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog-core": "^2.7.6",
@@ -43,16 +47,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LekoArts/gatsby-themes.git",
-    "directory": "themes/gatsby-theme-minimal-blog"
-  },
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "start": "gatsby develop"
   },
-  "version": "2.7.6"
+  "version": "2.8.1"
 }
